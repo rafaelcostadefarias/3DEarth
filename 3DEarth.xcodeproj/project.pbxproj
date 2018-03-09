@@ -12,6 +12,13 @@
 		0BB821BB205078FB0060FF5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB821B9205078FB0060FF5E /* Main.storyboard */; };
 		0BB821BD205078FB0060FF5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB821BC205078FB0060FF5E /* Assets.xcassets */; };
 		0BB821C0205078FB0060FF5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB821BE205078FB0060FF5E /* LaunchScreen.storyboard */; };
+		0BB821C920507ACD0060FF5E /* starsParticle.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 0BB821C720507ACD0060FF5E /* starsParticle.scnp */; };
+		0BB821CA20507ACD0060FF5E /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB821C820507ACD0060FF5E /* star.png */; };
+		0BB821CC20507BE50060FF5E /* EarthNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB821CB20507BE50060FF5E /* EarthNode.swift */; };
+		0BB821D120507DA00060FF5E /* Specular.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB821CD20507DA00060FF5E /* Specular.png */; };
+		0BB821D220507DA00060FF5E /* Emission.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB821CE20507DA00060FF5E /* Emission.png */; };
+		0BB821D320507DA00060FF5E /* Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB821CF20507DA00060FF5E /* Normal.png */; };
+		0BB821D420507DA00060FF5E /* Diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB821D020507DA00060FF5E /* Diffuse.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		0BB821BC205078FB0060FF5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BB821BF205078FB0060FF5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BB821C1205078FB0060FF5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB821C720507ACD0060FF5E /* starsParticle.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = starsParticle.scnp; sourceTree = "<group>"; };
+		0BB821C820507ACD0060FF5E /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		0BB821CB20507BE50060FF5E /* EarthNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthNode.swift; sourceTree = "<group>"; };
+		0BB821CD20507DA00060FF5E /* Specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Specular.png; sourceTree = "<group>"; };
+		0BB821CE20507DA00060FF5E /* Emission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emission.png; sourceTree = "<group>"; };
+		0BB821CF20507DA00060FF5E /* Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Normal.png; sourceTree = "<group>"; };
+		0BB821D020507DA00060FF5E /* Diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diffuse.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +70,17 @@
 			children = (
 				0BB821B5205078FB0060FF5E /* AppDelegate.swift */,
 				0BB821B7205078FB0060FF5E /* ViewController.swift */,
+				0BB821CB20507BE50060FF5E /* EarthNode.swift */,
+				0BB821C720507ACD0060FF5E /* starsParticle.scnp */,
+				0BB821C820507ACD0060FF5E /* star.png */,
 				0BB821B9205078FB0060FF5E /* Main.storyboard */,
 				0BB821BC205078FB0060FF5E /* Assets.xcassets */,
 				0BB821BE205078FB0060FF5E /* LaunchScreen.storyboard */,
 				0BB821C1205078FB0060FF5E /* Info.plist */,
+				0BB821D020507DA00060FF5E /* Diffuse.png */,
+				0BB821CE20507DA00060FF5E /* Emission.png */,
+				0BB821CF20507DA00060FF5E /* Normal.png */,
+				0BB821CD20507DA00060FF5E /* Specular.png */,
 			);
 			path = 3DEarth;
 			sourceTree = "<group>";
@@ -124,8 +145,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BB821C0205078FB0060FF5E /* LaunchScreen.storyboard in Resources */,
+				0BB821CA20507ACD0060FF5E /* star.png in Resources */,
+				0BB821D120507DA00060FF5E /* Specular.png in Resources */,
 				0BB821BD205078FB0060FF5E /* Assets.xcassets in Resources */,
+				0BB821C920507ACD0060FF5E /* starsParticle.scnp in Resources */,
 				0BB821BB205078FB0060FF5E /* Main.storyboard in Resources */,
+				0BB821D320507DA00060FF5E /* Normal.png in Resources */,
+				0BB821D220507DA00060FF5E /* Emission.png in Resources */,
+				0BB821D420507DA00060FF5E /* Diffuse.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BB821B8205078FB0060FF5E /* ViewController.swift in Sources */,
+				0BB821CC20507BE50060FF5E /* EarthNode.swift in Sources */,
 				0BB821B6205078FB0060FF5E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
